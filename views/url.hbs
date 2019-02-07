@@ -1,0 +1,25 @@
+<form action="ingreso" method="post">
+    <label for="txtNombreEmpresa">
+        Nombre de la empresa: </label>
+    <input type="text"
+        name="txtNombreEmpresa"
+        id="txtNombreEmpresa"
+        placeholder="Empresa..."
+        value="{{empresa}}" /></br>
+
+    <label for="txtUrl">
+        URL: </label>
+    <input type="text"
+        name="txtUrl"
+        id="txtUrl"
+        placeholder="URL..."
+        value="{{url}}" /></br>
+
+    <input type="submit" value="Guardar"
+        id="btnGuardar" name="btnGuardar" />
+</form>
+<div>
+    {{fecha}}
+    {{empresa}}
+    {{url}}
+</div>
